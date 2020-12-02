@@ -1,0 +1,47 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "description": "iPrism Scanner",
+  "main": "app.js",
+  "author": "",
+  "browser": {
+    "fs": false,
+    "child_process": false
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "copyright": "Copyright © 2018 ",
+  "dependencies": {
+    "agentkeepalive": "^4.0.0",
+    "archiver": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "chroma-js": "^2.0.2",
+    "color-convert": "^1.9.3",
+    "color-namer": "^1.3.0",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "excel-export": "^0.5.1",
+    "express": "^4.16.3",
+    "express-pouchdb-replication-stream": "^1.0.6",
+    "json2csv": "^4.3.2",
+    "lodash": "^4.17.11",
+    "log4js": "^3.0.6",
+    "method-override": "^3.0.0",
+    "minio": "^7.0.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql-insert-multiple": "^1.0.4",
+    "nano": "^7.1.1",
+    "node-excel-export": "^1.4.4",
+    "node-pixi": "^0.4.5",
+    "ntc": "0.0.1",
+    "opencv4nodejs": "^4.14.0",
+    "pug": "^2.0.3",
+    "token-generator": "^1.0.0"
+  },
+  "devDependencies": {}
+}
